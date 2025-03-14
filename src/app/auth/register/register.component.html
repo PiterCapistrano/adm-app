@@ -3,14 +3,14 @@
   <form (ngSubmit)="onRegister()">
     <div>
       <label>Email:</label>
-      <input type="email" name="email" [(ngModel)]="user.email" required />
+      <input type="email" name="email" (ngModel)="(user.email)" required />
     </div>
     <div>
       <label>Senha:</label>
       <input
         type="password"
         name="password"
-        [(ngModel)]="user.password"
+        (ngModel)="(user.password)"
         required
       />
     </div>
