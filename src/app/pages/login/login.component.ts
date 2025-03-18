@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { DefaultLoginLayoutComponent } from '../../components/default-login-layout/default-login-layout.component';
-import { AuthService } from '../../auth/auth.service';
 import { Router } from '@angular/router';
 import {
   FormControl,
@@ -39,6 +38,6 @@ export class LoginComponent {
   }
 
   navigate() {
-    this.router.navigate(['signup']);
+    this.router.navigate(['register']);
   }
 }
