@@ -2,6 +2,8 @@
   title="Faça login"
   primaryButtonText="Login"
   secondaryButtonText="Cadastre-se"
+  (submit)="submit()"
+  (navigate)="navigate()"
 >
   <form [formGroup]="loginForm">
     <app-primary-input
