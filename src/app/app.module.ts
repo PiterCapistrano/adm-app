@@ -5,9 +5,9 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app.routes';
 import { AppComponent } from './app.component';
-import { LoginComponent } from './auth/login/login.component';
-import { RegisterComponent } from './auth/register/register.component';
-import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './pages/login/login.component';
+import { RegisterComponent } from './pages/register/register.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
